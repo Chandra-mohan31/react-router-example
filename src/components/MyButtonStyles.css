@@ -1,0 +1,26 @@
+.customBtn{
+    color: white;
+    background-color: rgb(37, 116, 226);
+    height: 100px;
+    width: 100px;
+    /* font-weight: bolder; */
+    font-size: 50px;
+    /* font-family: cursive; */
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    transition: 1s ease;
+}
+
+
+.counter_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.customBtn:hover{
+    transform: scale(0.9);
+}
